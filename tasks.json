@@ -1,0 +1,22 @@
+[
+    {
+        "name": "COMP9001 Final Project",
+        "due_date": "24/05/2026",
+        "priority": "High",
+        "completed": false
+    },
+
+    {
+        "name": "Database Assignment2",
+        "due_date": "17/05/2026",
+        "priority": "Medium",
+        "completed": true
+    },
+
+    {
+        "name": "Python Final Exam",
+        "due_date": "19/06/2026",
+        "priority": "Low",
+        "completed": false
+    }
+]
