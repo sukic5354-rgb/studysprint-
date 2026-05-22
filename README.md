@@ -39,6 +39,15 @@ The system tracks:
 - Completed tasks
 
 ---
+# Testing
+
+Basic testing functions were implemented in the program to verify that important features work correctly.
+
+The project uses `assert` statements to test:
+- Task creation
+- Task sorting functionality
+
+---
 
 # Program Structure
 
