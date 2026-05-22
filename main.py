@@ -1,4 +1,5 @@
 from datetime import datetime
+json.load()
 tasks = []
 def add_task():
     print("\n=== Add Study Task ===")
