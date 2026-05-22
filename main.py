@@ -144,5 +144,41 @@ def main():
             break
         else:
             print("Invalid option.\n")
+def test_add_task():
+
+    test_task = {
+        "name": "Test Task",
+        "due_date": "24/05/2026",
+        "priority": "High",
+        "completed": False
+    }
+    tasks.append(test_task)
+
+    assert len(tasks) > 0
+
+    assert tasks[-1]["name"] == "Test Task"
+
+    print("test_add_task passed!")
+def test_sort_tasks():
+
+    sort_tasks()
+
+    for i in range(len(tasks) - 1):
+
+        current_date = datetime.strptime(
+            tasks[i]["due_date"],
+            "%d/%m/%Y"
+        )
+
+        next_date = datetime.strptime(
+            tasks[i + 1]["due_date"],
+            "%d/%m/%Y"
+        )
+
+        assert current_date <= next_date
+
+    print("test_sort_tasks passed!")
+test_add_task()
+test_sort_tasks()
 main()
 
