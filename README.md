@@ -37,7 +37,6 @@ The program automatically recommends important study tasks based on:
 The system tracks:
 - Total number of tasks
 - Completed tasks
-- Completion rate
 
 ---
 
