@@ -41,18 +41,6 @@ The system tracks:
 
 ---
 
-# Stress Level Analysis
-A unique feature of the project is the stress level system.
-
-The program analyses upcoming deadlines and displays:
-- LOW
-- MEDIUM
-- HIGH
-
-stress levels to help students better manage workload pressure.
-
----
-
 # Program Structure
 
 ```text
