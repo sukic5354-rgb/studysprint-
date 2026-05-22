@@ -1,6 +1,8 @@
 from datetime import datetime
-json.load()
-tasks = []
+import json
+with open('tasks.json', 'r', encoding='utf-8') as file:
+    tasks = json.load(file)
+print(tasks)
 def add_task():
     print("\n=== Add Study Task ===")
     name = input("Task Name: ")
